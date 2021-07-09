@@ -22,19 +22,11 @@ function Semester(props){
             <td style={{border:"black",borderStyle:"solid"}}>{item.studentDept}</td>
             <td style={{border:"black",borderStyle:"solid"}}>{item.RollNumber}</td>
             <td style={{border:"black",borderStyle:"solid"}}>{item.CGPA}</td>
-</tr>
-
-                        
-                    
-               ))
+                    </tr>
+                ))
             }
-            
-              </tbody>
-                    
-        </table>
-        
-
-                      
+                    </tbody>
+                    </table>
         </div>
     )
 }
